@@ -1,3 +1,13 @@
-p {
-    color: red;
+#logoSpace {
+    border: 2px solid red;
+}
+
+#greySpace {
+    border: 2px solid green;
+    background-color: rgb(63, 63, 63);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
 }
