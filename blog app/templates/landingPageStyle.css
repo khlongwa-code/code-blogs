@@ -1,7 +1,6 @@
 html {
     border: 3px solid red;
     height: 100%;
-    width:auto;
 }
 
 body {
@@ -14,13 +13,24 @@ body {
 
 #logoSpace {
     border: 2px solid green;
-    text-align: center;
-    margin: 0;
-    padding-right: 50%;
+    display: flex;
+    justify-items: center;
+    padding: 0px 20% 0px 20%;
 }
 
 #greySpace {
-   border: 2px solid blue;
-   padding-right: 40%;
-   margin: 0;
+    background-color: grey;
+    display: flex;
+    justify-items: center;
+    border: 2px solid blue;
+    padding: 0px 25% 0px 25%;
+    align-items: center;
+}
+
+#logo {
+    border: 2px dotted red;
+}
+
+#signUpButton {
+    border: 2px dotted red;
 }
