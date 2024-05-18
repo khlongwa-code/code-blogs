@@ -1,15 +1,26 @@
-html, body {
+html {
+    border: 3px solid red;
+    height: 100%;
+    width:auto;
+}
+
+body {
     border: 2px solid red;
     margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 #logoSpace {
     border: 2px solid green;
     text-align: center;
-    display: flex;
-    flex-direction: row;
+    margin: 0;
+    padding-right: 50%;
 }
 
 #greySpace {
-    border: 2px solid blue;
+   border: 2px solid blue;
+   padding-right: 40%;
+   margin: 0;
 }
